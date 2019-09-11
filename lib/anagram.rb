@@ -4,8 +4,8 @@ class Anagram
     @word = word
   end
   
-  def match
-    word.match(%w)
+  def match(array)
+    array.select { |x| x.split("").sort == @word.split("").sort
   end  
   
   
