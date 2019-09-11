@@ -5,8 +5,8 @@ class Anagram
   end
   
   def match
-    
-    
+    word.match(%w())
+  end  
   
   
   
